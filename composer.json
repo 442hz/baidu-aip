@@ -1,0 +1,22 @@
+{
+    "name": "baidu/aip",
+    "description": "https://ai.baidu.com/docs#/OCR-PHP-SDK/top",
+    "keywords": ["baidu", "yii2", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hacklog",
+            "email": "nobody@pediy.rce"
+        }
+    ],
+    "type": "library",
+    "require": {
+		  "php": ">=7.1",
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+      "classmap": ["vendor/baidu/php-sdk/"]
+    }
+}
