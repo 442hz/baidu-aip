@@ -17,6 +17,6 @@
 		"phpunit/phpunit": "6.*"
     },
     "autoload": {
-      "classmap": ["/"]
+      "classmap": ["./"]
     }
 }
